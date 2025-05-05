@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Your Show</title>
+    <link rel="stylesheet" href="booking.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">ShowTime</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shows</a></li>
+          <li><a href="#">Bookings</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="booking-section">
+      <h1>Book Your Favorite Show</h1>
+
+      <form class="booking-form" action="config.html" method="GET">
+        <div class="form-group">
+          <label for="show">Select Show:</label>
+          <select id="show" name="show" required>
+            <option value="">--Choose a Show--</option>
+            <option value="avengers">Avengers: Endgame</option>
+            <option value="joker">Joker</option>
+            <option value="interstellar">Interstellar</option>
+            <option value="lionking">The Lion King</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Select Date:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-group">
+          <label for="seats">Number of Seats:</label>
+          <input
+            type="number"
+            id="seats"
+            name="seats"
+            min="1"
+            max="10"
+            required
+          />
+        </div>
+
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 ShowTime. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

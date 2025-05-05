@@ -1,0 +1,81 @@
+.confirmation-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.confirmation-section h1 {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.confirmation-section p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #ffde22;
+  color: black;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #ffde22;
+}
+
+header {
+  background: #ffde22;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+footer {
+  background-color: #ffde22;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 50px;
+  font-size: 0.95rem;
+}
+
+footer p {
+  margin: 0;
+}
